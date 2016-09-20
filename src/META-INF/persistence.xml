@@ -5,6 +5,7 @@
     <class>streaming.entity.Film</class>
     <class>streaming.entity.Lien</class>
     <class>streaming.entity.Genre</class>
+    <class>streaming.entity.Pays</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
       <property name="javax.persistence.jdbc.user" value="app"/>
