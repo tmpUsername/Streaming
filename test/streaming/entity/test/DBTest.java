@@ -5,6 +5,7 @@
  */
 package streaming.entity.test;
 
+import javax.persistence.Persistence;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -14,6 +15,9 @@ import static org.junit.Assert.*;
  */
 public class DBTest {
     
-    
+    @Test
+    public void test() {
+        Persistence.createEntityManagerFactory("PU");
+    }
     
 }
